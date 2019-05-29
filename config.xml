@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.mobile.giiraffa" version="3.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>giiraffa ios</name>
-    <description>Moodle official app</description>
+<widget id="com.giiraffa.mobile" version="3.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Giiraffa</name>
+    <description>Giiraffa official app</description>
     <author email="mobile@giiraffa.com" href="http://giiraffa.com"> Mobile team</author>
     <content src="index.html" />
     <access origin="*" />
@@ -21,7 +21,7 @@
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="false" />
-    <preference name="AppendUserAgent" value="MoodleMobile" />
+    <preference name="AppendUserAgent" value="GiiraffaMobile" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="UIWebViewBounce" value="false" />
@@ -37,6 +37,8 @@
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="LoadUrlTimeoutValue" value="60000" />
+    <preference name="siteUrl" value="https://giiraffa.ru"/>
+        
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
