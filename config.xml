@@ -38,7 +38,15 @@
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="LoadUrlTimeoutValue" value="60000" />
     <preference name="siteUrl" value="https://giiraffa.ru"/>
-        
+    
+	<config-file platform="ios" parent="NSCameraUsageDescription" mode="replace">
+	<string>App would like to access the camera.</string>
+	</config-file>
+
+	<config-file platform="ios" parent="NSPhotoLibraryUsageDescription" mode="replace">
+	<string>App would like to access the camera.</string>
+	</config-file>
+	
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
